@@ -1,0 +1,55 @@
+.story {
+  width: 100%;
+  height: 170px;
+  background-color: #fff;
+
+  .story__center {
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      outline: 3px solid rgba(153, 55, 202, 0.818);
+      outline-offset: 3px;
+      margin-bottom: 10px;
+    }
+    & p {
+      font-family: iranyekan;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 0 10px;
+      color: dimgrey;
+    }
+  }
+}
+
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 35px;
+  height: 35px;
+  background-color:#fff;
+  border-radius: 50%;
+  outline: 2px solid black;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+}

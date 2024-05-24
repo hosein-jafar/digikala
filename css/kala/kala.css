@@ -1,0 +1,152 @@
+.kala {
+  width: 100%;
+  height: 403px;
+
+  .kala__center {
+    width: 90%;
+    height: 403px;
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    box-sizing: border-box;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .kala__top {
+      width: 100%;
+      height: 44px;
+      padding-left: 20px;
+      padding-right: 20px;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+      .kala__top1 {
+        display: flex;
+        right: 50px;
+        align-items: center;
+        justify-content: space-between;
+        .kala__svg {
+          display: flex;
+          margin-left: 8px;
+          svg {
+            width: 24px;
+            height: 24px;
+            fill: #f9a825;
+            path {
+              fill: #f9a825;
+            }
+          }
+        }
+        p {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 2.1;
+          font-family: var(--iranyekan);
+          color: #0c0c0c;
+        }
+        .kala__moshahede {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          p {
+            font-size: 16px;
+            font-family: var(--iranyekan);
+            font-weight: 400;
+            line-height: 2.1;
+            color: rgb(13, 162, 178);
+          }
+        }
+      }
+    }
+    .kala__bottom {
+      width: 100%;
+      height: 298px;
+
+      display: flex;
+      gap: 4px;
+      margin-top: 28px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .kala__slider {
+        width: 340px;
+        height: auto;
+        margin-left: 20px;
+        display: flex;
+        flex-flow: nowrap row;
+        gap: 8px;
+
+        a {
+          width: 400px;
+          display: flex;
+          gap: 5px;
+          text-decoration: none;
+
+          .kala__slidercenter {
+            height: 86px;
+            display: flex;
+            flex-flow: row nowrap;
+            img {
+              width: 86px;
+              height: 86px;
+              object-fit: contain;
+            }
+          }
+          span {
+            display: flex;
+            flex-flow: nowrap row;
+            font-size: 30px;
+            font-family: var(--iranyekan);
+            font-weight: 800;
+            line-height: 2.1;
+            color: #19bfd3;
+            align-items: center;
+          }
+          .text__kalaslider {
+            width: 197px;
+            height: 52px;
+            display: flex;
+            flex-flow: wrap row;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            p {
+              position: absolute;
+              top: 20px;
+              padding-top: 8px;
+              font-size: 10px;
+              line-height: 20px;
+              font-weight: 400;
+              columns: #3f4064;
+              border-bottom: 1px solid black;
+            }
+          }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

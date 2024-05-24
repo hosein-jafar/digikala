@@ -1,0 +1,76 @@
+.sabad{
+    width: 100%;
+    height: 170px;
+    background-color: #fff;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .hame__sabad{
+            width:100%;
+            height: 100%;
+            padding: 8px 0;
+            margin-right: 8px;
+            background-color: #f0f0f1;
+            border-radius: 8px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+
+            .image{
+                & img{
+                    width: 90px;
+                    height: 90px;
+                }
+            }
+
+            & span{
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 2.17;
+                color: #0c0c0c;
+            }
+           }
+
+           .baghie__sabad{
+            width:100%;
+            height: 100%;
+            padding: 8px 0;
+            margin-right: 8px;
+            border-radius: 8px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            & img{
+                width: 90px;
+                height: 90px;
+            }
+            & span{
+                font-size: 12px;
+                line-height: 2.17;
+                color: #0c0c0c;
+            }
+           }
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+}

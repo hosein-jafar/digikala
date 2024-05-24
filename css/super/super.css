@@ -1,0 +1,137 @@
+.super {
+  width: 100%;
+
+  
+  .super__center {
+    width: 95%;
+    height: inherit;
+    padding: 16px 40px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f1;
+    .super__right {
+      width: 50%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-start;
+      .super__sabad{
+        background-color: #f0f0f1;
+      }
+     .super__text{
+        margin: 0 20px;
+        & img{
+            width: 250px;
+            height: 28px;
+        }
+     }
+      .logo__super{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        
+        .superright__text{
+            width: 111px;
+            height: 28px;
+            background-color: #39ae00;
+            border-radius: 16px;
+           & p{
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 2.15;
+           }
+        }
+
+      }
+    }
+
+    .super__left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        column-gap: 10px;
+        padding-left: 40px;
+        background-image: url(../../images/super/freshPattern.svg)  ;
+        background-repeat: no-repeat;
+        & a {
+          text-decoration: none;
+          position: relative;
+  
+          & img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+          }
+          .darsadd {
+            position: absolute;
+            width: 36px;
+            height: 24px;
+            background-color: #d32f2f;
+            display: flex;
+            border-radius: 13px;
+            right: 0;
+            bottom: 0;
+            align-items: center;
+            justify-content: center;
+            & span {
+              color: #fff;
+              box-sizing: border-box;
+              font-size: 12px;
+              font-family: var(--fontFamily);
+              display: flex;
+              flex-flow: row wrap;
+            }
+          }
+        }
+        .pish {
+          width: 144px;
+          height: 50px;
+          background-color: #fff;
+          box-sizing: border-box;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          border-radius: 16px;
+          & a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: row wrap;
+            text-decoration: none;
+            text-align: center;
+           
+            & span {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-flow: row wrap;
+              font-size: 12px;
+              font-weight: 700;
+              font-family: var(--fontFamily);
+              color: green;
+              text-align: center;
+      
+            }
+            & svg{
+                margin-right: 4px;
+                & path{
+                    fill: green;
+                }
+            }
+          }
+        }
+      }
+  }
+}

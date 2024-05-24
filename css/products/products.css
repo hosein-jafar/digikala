@@ -1,0 +1,291 @@
+.products {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  padding: 0 16px;
+  .products__title {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    & span {
+      font-size: 16px;
+    }
+  }
+  .products__main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .products__filter {
+        height: fit-content;
+      position: sticky;
+      top: 0;
+      width: 20%;
+      border: 1px solid #e0e0e2;
+      border-radius: 8px;
+      .filter__text {
+        padding: 16px 20px;
+        color: #3f4064;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 2.1;
+        
+      }
+      .noe__filter {
+        min-height: 35px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 0 20px;
+        .text {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: space-between;
+          padding: 12px 0;
+          border-bottom: 1px solid #e0e0e2;
+          .text__main {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            & img {
+              width: 18px;
+              height: 18px;
+              margin-right: 8px;
+            }
+          }
+          .wrap {
+            width: 80%;
+          }
+          .subtitle {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-start;
+            font-weight: 400;
+            line-height: 2.15;
+            font-size: 14px;
+            color: #81858b;
+          }
+          .switch {
+            input[type="checkbox"] {
+              width: 50px;
+              border: 1px solid red;
+            }
+          }
+        }
+      }
+    }
+    .kalaha__main {
+      width: 78%;
+      min-height: 600px;
+      display: flex;
+      flex-flow: row wrap;
+
+      .moratabsazi {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        .moratabsazi__right {
+          width: 80%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-start;
+          align-items: center;
+          column-gap: 16px;
+          .moratabsazi__text {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 12px 0;
+            .moratab {
+              font-size: 12px;
+              color: #0c0c0c;
+              font-weight: 700;
+              line-height: 2.17;
+            }
+            & svg {
+              margin-left: 8px;
+            }
+          }
+          & span {
+            cursor: pointer;
+            font-size: 12px;
+            color: #81858b;
+            font-weight: 400;
+            line-height: 2.17;
+          }
+          .montakhab__ghermez {
+            color: #ef394e;
+          }
+        }
+        .moratabsazi__left {
+          width: 20%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-end;
+          align-items: center;
+          & span {
+            cursor: pointer;
+            font-size: 12px;
+            color: #81858b;
+            font-weight: 400;
+            line-height: 2.17;
+          }
+        }
+      }
+      .aghlam {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        .aghlam__main {
+          width: 25%;
+          min-height: 490px;
+          padding: 12px 8px;
+          border: 1px solid #f0f0f1;
+
+          .image {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-start;
+            & img {
+              width: 116px;
+              height: 14px;
+              object-fit: cover;
+            }
+          }
+          .main__image {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            & img {
+              width: 240px;
+              height: 240px;
+              object-fit: cover;
+            }
+          }
+          & h2 {
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 2.17;
+            color: #3f4064;
+          }
+          .ersal__main {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 4px;
+            .ersal {
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: flex-start;
+
+              & p {
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 2.17;
+                color: #62666d;
+              }
+              .noe__ersal {
+                & svg {
+                  margin-left: 8px;
+                  & path {
+                    fill: #1028ff;
+                  }
+                }
+              }
+            }
+            .star {
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: center;
+              & p {
+                font-weight: 700;
+                line-height: 2.17;
+                color: #3f4064;
+                font-size: 12px;
+              }
+              & svg {
+                margin-right: 8px;
+                & path {
+                  transform: scale(0.78);
+                  fill: #f9bc00;
+                }
+              }
+            }
+          }
+          .darsad__roz {
+            width: 100%;
+            height: 34px;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+            align-items: center;
+            color: #0c0c0c;
+
+            .darsad__ghermez {
+              width: 34px;
+              height: 20px;
+              background-color: red;
+              border-radius: 30%;
+              span {
+                font-size: 14px;
+                color: whitesmoke;
+              }
+            }
+          }
+
+          .roz__smal {
+            width: 100%;
+            height: 26px;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: left;
+            align-items: center;
+            p {
+              font-size: 12px;
+              font-weight: 400px;
+              font-family: var(--fontFamily);
+              line-height: 2.17;
+              text-decoration-line: line-through;
+              color: #c0c2c5;
+            }
+          }
+          &:hover {
+            box-shadow: 5px 5px 25px #2b2b2b;
+          }
+        }
+        .first__slide {
+          border-right: 0;
+        }
+
+        .last__slide {
+          border-left: 0;
+        }
+      }
+    }
+  }
+}

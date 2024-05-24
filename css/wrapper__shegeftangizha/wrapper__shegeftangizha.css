@@ -1,0 +1,5 @@
+.wrapper__shegeftangiza {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }

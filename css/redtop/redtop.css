@@ -1,0 +1,12 @@
+.redtop{
+    width: 100%;
+    height: 64px;
+    background-color:#ef4056;
+    background-image: url(../../images/redtop/1.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-position-x:center ;
+    
+}

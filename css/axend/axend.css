@@ -1,0 +1,30 @@
+.axend {
+  width: 100%;
+  height: 264px;
+
+  .axend__center {
+    width: 90%;
+    height: 270px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content:center;
+    column-gap: 16px;
+    margin: 0 auto;
+    a {
+       
+        
+      .axright {
+        display: flex;
+        flex-flow: row wrap;
+    
+        img {
+          width: 600px;
+          height: 240px;
+          object-fit: cover;
+          border-radius: 16px;
+        }
+      }
+    }
+  }
+}

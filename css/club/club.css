@@ -1,0 +1,130 @@
+.club {
+  width: 100%;
+  height: 100px;
+
+  .club__center {
+    width: 90%;
+    height: 87px;
+    background-color: #007295;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 8px;
+    border-radius: 16px;
+    .club__right {
+      width: 25%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 119px;
+        height: 33px;
+      }
+    }
+    .club__left {
+      width: 65%;
+      height: 63px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      border-radius: 16px;
+      flex-flow: row wrap;
+      gap: 4px;
+      .slid__club {
+        width: 100%;
+        height: inherit;
+        gap: 4px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-flow: row wrap;
+
+        .slid__cright {
+        
+          width: 33%;
+          height: inherit;
+          background-color: aliceblue;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 3px;
+          padding-right: 10px;
+          svg {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+            fill: #007295;
+            path {
+              width: 20px;
+              height: 20px;
+              fill: #00bfd6;
+            }
+          }
+          span {
+            margin-right: 8px;
+            font-size: 12px;
+            font-family: var(--fontFamily);
+            font-weight: 700;
+            line-height: 2.17;
+            color: #0c0c0c;
+          }
+          .ciub__ax {
+            width: 168px;
+            height: 60px;
+            overflow: hidden;
+            img {
+              object-fit: cover;
+              width: 168px !important;
+            }
+          }
+        }
+        .slid__ccenter {
+          width: 33%;
+          height: inherit;
+          background-color: aliceblue;
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          padding-right: 10px;
+          flex-flow: row wrap;
+          svg {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+            fill: #007295;
+            path {
+              width: 20px;
+              height: 20px;
+              fill: #00bfd6;
+            }
+          }
+          span {
+            margin-right: 8px;
+            font-size: 12px;
+            font-family: var(--fontFamily);
+            font-weight: 700;
+            line-height: 2.17;
+            color: #0c0c0c;
+          }
+          .club__ax {
+            width: 168px;
+            height: 60px;
+            overflow: hidden;
+            img {
+              object-fit: cover;
+              width: 168px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

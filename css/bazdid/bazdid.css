@@ -1,0 +1,297 @@
+.bazdid {
+  width: 100%;
+  height: 450px;
+  .bazdid__center {
+    width: 90%;
+    height: 420px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    border: 1px solid #e0e0e2;
+    box-sizing: border-box;
+    gap: 1px;
+    border-radius: 16px;
+    .bazdid__1 {
+      width: 25%;
+      height: 417px;
+      .bazdid__text {
+        padding-top: 10px;
+        padding-right: 25px;
+        font-family: var(--fontFamily);
+        line-height: 30px;
+        & h4 {
+          font-size: 1, 6rem;
+          font-weight: 700;
+          line-height: 2.1;
+          color: #23254e;
+        }
+        & p {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 2.14;
+          color: #81858b;
+        }
+      }
+      .bazdid__image {
+        width: 100%;
+        height: 308px;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #ffffff;
+        .bazdid__ax1 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          padding: 34px;
+
+          & a {
+            & img {
+              width: 129px;
+              height: 129px;
+            }
+          }
+        }
+      }
+      .bazdid__mosh {
+        width: inherit;
+        height: 26px;
+        display: flex;
+    
+        justify-content: center;
+        flex-flow: row wrap;
+        & p {
+          font-size: 12px;
+          font-family: var(--fontFamily);
+          font-weight: 700;
+          line-height: 2.17;
+          cursor: pointer;
+          color: #19bfd3;
+        }
+        & svg {
+          width: 15px;
+          height: 8px;
+          path{
+            fill: #19bfd3;
+          }
+        }
+      }
+    }
+    .bazdid__2 {
+      width: 25%;
+      height: 417px;
+      display: flex;
+      flex-flow: row wrap;
+      .bazdid__text2 {
+        padding-top: 10px;
+        padding-right: 25px;
+        font-family: var(--fontFamily);
+        line-height: 30px;
+        & h4 {
+          font-size: 1, 6rem;
+          font-weight: 700;
+          line-height: 2.1;
+          color: #23254e;
+        }
+        & p {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 2.14;
+          color: #81858b;
+        }
+      }
+      .bazdid__image2 {
+        width: 100%;
+        height: 308px;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #ffffff;
+
+        .bazdid__ax2 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          padding: 34px;
+
+          & a {
+            & img {
+              width: 129px;
+              height: 129px;
+            }
+          }
+        }
+      }
+      .bazdid__mosh2 {
+        width: inherit;
+        height: 26px;
+        display: flex;
+     
+        justify-content: center;
+        flex-flow: row wrap;
+        & p {
+          font-size: 12px;
+          font-family: var(--fontFamily);
+          font-weight: 700;
+          line-height: 2.17;
+          cursor: pointer;
+          color: #19bfd3;
+        }
+        & svg {
+          width: 15px;
+          height: 8px;
+          path{
+            fill: #19bfd3;
+          }
+        }
+      }
+    }
+    .bazdid__3 {
+      width: 25%;
+      height: 417px;
+      .bazdid__text3 {
+        padding-top: 10px;
+        padding-right: 25px;
+        font-family: var(--fontFamily);
+        line-height: 30px;
+        & h4 {
+          font-size: 1, 6rem;
+          font-weight: 700;
+          line-height: 2.1;
+          color: #23254e;
+        }
+        & p {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 2.14;
+          color: #81858b;
+        }
+      }
+      .bazdid__image3 {
+        width: 100%;
+        height: 308px;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #ffffff;
+
+        .bazdid__ax3 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          padding: 34px;
+
+          & a {
+            & img {
+              width: 129px;
+              height: 129px;
+            }
+          }
+        }
+      }
+      .bazdid__mosh3 {
+        width: inherit;
+        height: 26px;
+        display: flex;
+     
+        justify-content: center;
+        flex-flow: row wrap;
+        & p {
+          font-size: 12px;
+          font-family: var(--fontFamily);
+          font-weight: 700;
+          line-height: 2.17;
+          cursor: pointer;
+          color: #19bfd3;
+        }
+        & svg {
+          width: 15px;
+          height: 8px;
+          path{
+            fill: #19bfd3;
+          }
+       
+        }
+      }
+    }
+    .bazdid__4 {
+      width: 24.5%;
+      height: 417px;
+      .bazdid__text4 {
+        padding-top: 10px;
+        padding-right: 25px;
+        font-family: var(--fontFamily);
+        line-height: 30px;
+        & h4 {
+          font-size: 1, 6rem;
+          font-weight: 700;
+          line-height: 2.1;
+          color: #23254e;
+        }
+        & p {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 2.14;
+          color: #81858b;
+        }
+      }
+      .bazdid__image4 {
+        width: 100%;
+        height: 308px;
+        display: flex;
+        flex-flow: row wrap;
+        background-color: #ffffff;
+
+        .bazdid__ax4 {
+          width: inherit;
+          height: inherit;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          padding: 34px;
+
+          & a {
+            & img {
+              width: 129px;
+              height: 129px;
+            }
+          }
+        }
+      }
+      .bazdid__mosh4 {
+        width: inherit;
+        height: 26px;
+        display: flex;
+      
+        justify-content: center;
+        flex-flow: row wrap;
+        & p {
+          font-size: 12px;
+          font-family: var(--fontFamily);
+          font-weight: 700;
+          line-height: 2.17;
+          cursor: pointer;
+          color: #19bfd3;
+        }
+        & svg {
+          width: 15px;
+          height: 8px;
+          path{
+            fill: #19bfd3;
+          }
+        }
+      }
+    }
+  }
+}

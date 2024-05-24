@@ -1,0 +1,115 @@
+.vizhe {
+  width: 100%;
+
+  .vizhe__center {
+    width: 95%;
+    height: 110px;
+    padding: 4px 28px 8px 28px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: #f0f0f1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    .vizhe {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: url(../../images/vizhe/earlyAccessTeasing.svg) right center
+          no-repeat,
+        url(../../images/vizhe/earlyAccessPatternPlusMobile.svg) left center
+          no-repeat;
+    }
+    .vizhe__right {
+      width: 80%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .vizhe__left {
+      width: 20%;
+      padding-right: 20px;
+      height: inherit;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      margin-right: 16px;
+      margin-top: 0;
+      .vizhe__digiplus {
+        width: 100%;
+        margin-bottom: 4px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+
+        svg {
+          path {
+            fill: #b12ba4;
+          }
+        }
+        span {
+          color: #b12ba4;
+        }
+      }
+      .vizhe__timer {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+
+        .timer__main {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+          padding: 4px 12px;
+          border-radius: 8px;
+         
+          .timer__text {
+            display: flex;
+            flex-flow: column wrap;
+            align-items: center;
+            justify-content: center;
+            & span {
+              text-align: center;
+              color: #941b80;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 1.5;
+            }
+            .saat {
+              font-size: 7px;
+            }
+          }
+        }
+        .middle{
+          margin: 0 12px;
+        }
+        .ta__shoroo{
+          font-size: 12px;
+          margin-right: 16px;
+          color: #941b80;  
+        }
+
+        & svg {
+          margin-right: 4px;
+          & path {
+            transform: scale(0.75);
+            fill: #941b80;
+          }
+        }
+      }
+    }
+  }
+}

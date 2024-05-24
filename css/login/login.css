@@ -1,0 +1,100 @@
+.login {
+  width: 100%;
+  height: 100vh;
+ display: flex;
+ flex-flow: column wrap;
+ align-items: center;
+ justify-content: center;
+  .login__center {
+    width: 400px;
+    border: 1px solid #e0e0e2;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    cursor: pointer;
+    .digikala__login{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+       img {
+        width: 150px;
+        height: 40px;
+       
+       }
+    }
+    .login__bottom{
+        h1{
+            font-size: 19px;
+            font-weight: 600;
+            line-height: 2.1;
+            color: #0c0c0c;
+            text-align: right;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 2.17;
+        color: #3f4064;
+        text-align: right;
+        padding-bottom: 14px;
+     
+        }
+        form {
+            width: 100%;
+            color: red;
+            .login__input{
+                width: 100%;
+                height: 50px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 2.15;
+                padding-left: 8px;
+                padding-right: 8px;
+                border-radius: 8px;
+                caret-color: #19bfd3;
+                color: #3f4064;
+                background-color: #00000000;
+                border: 1px solid red;
+  
+            }
+        }
+        .login__p{
+            color:#b2001a   ;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 2.17;
+        }
+        .btn__login{
+            width: 100%;
+            height: 50px;
+            background-color: #ef4056;
+            border-radius: 8px;
+            border: 1px solid #ef4056;
+            span{
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 2.15;
+                color: #fff;
+            }
+        }
+        .login__end{
+            margin-top: 16px;
+            .login__pp{
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 2.17;
+                color: #3f4064;
+                a {
+                   color: #008eb2;
+                
+                }
+            }
+        }
+    }
+  }
+}

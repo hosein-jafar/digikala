@@ -1,0 +1,109 @@
+.pishnahad {
+  width: 100%;
+  height: 300px;
+  .pishnahad__center {
+    width: 80%;
+    background-color: #ef4056;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 2px;
+    margin: 0 auto;
+    border-radius: 16px;
+    .pishnahad__right {
+      background-color: #ef4056;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      & a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 2.15;
+        font-family: var(--fontFamily);
+        & img {
+          width: 92px;
+          height: 77px;
+          outline-offset: 0;
+          background-color: transparent !important;
+        }
+        & svg {
+          & path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+    .takhfifat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      & a {
+        text-decoration: none;
+        & img {
+          width: 150px;
+          height: 150px;
+        }
+        .gheymat {
+          font-family: var(--fontFamily);
+          color: #3f4064;
+          font-size: 16px;
+        }
+        .darsad {
+          background-color: #ef4056;
+          width: 34px;
+          height: 20px;
+          font-family: var(--fontFamily);
+          color: #fff;
+          font-size: 12px;
+          border-radius: 16px;
+        }
+        .takhfifat__text {
+          padding-top: 20px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: space-around;
+        }
+        .gheymatasli {
+          & span {
+            padding-left: 20px;
+            text-decoration: line-through;
+            font-size: 12px;
+            font-family: var(--fontFamily);
+            font-weight: 400px;
+            color: #c0c2c5;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

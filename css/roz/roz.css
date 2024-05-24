@@ -1,0 +1,222 @@
+.roz {
+  width: 100%;
+  height: 360px;
+  .roz__center {
+    width: 95%;
+    height: 344px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    margin-top: 16px;
+    border-radius: 16px;
+    background-image: url(../../images/roz/svg.svg);
+    background-color: #e6123d;
+    background-repeat: repeat-x;
+    .roz__top {
+      width: 100%;
+      height: 65px;
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap;
+      padding-right: 12px;
+      gap: 7px;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+      p {
+        font-size: 16px;
+        color: rgb(247, 245, 241);
+        font-family: var(--fontFamily);
+        font-weight: bold;
+      }
+    }
+    .roz__bottom {
+      width: 100%;
+      height: 266px;
+      border-color: darkblue;
+      margin: 0 auto;
+      .roz__bottomcenter {
+        width: 98%;
+        background-color: 258px;
+        column-gap: 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .roz__slider {
+            /* width: 614px;
+            height: 258px; */
+            /* background-color: whitesmoke; */
+            border-radius: 16px;
+            .rozslider__top {
+              width: 582px;
+              height: 26px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-bottom: 4px;
+              /* position: relative; */
+              img {
+                width: 116px;
+                height: 14px;
+                overflow: hidden;
+                display: inline-block;
+                object-fit: contain;
+                position: absolute;
+                right: 20px;
+              }
+            }
+            .rozslider__bottom {
+              width: 582px;
+              height: 212px;
+              margin-left: 17px;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              flex-flow: row wrap;
+              
+              .bottom__right {
+                width: 200px;
+                height: 212px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img {
+                  width: 160px;
+                  object-fit: contain;
+                  
+                }
+              }
+              .bottom__left {
+                width: 370px;
+                height: 212px;
+                background-color: #ffff;
+                display: flex;
+                flex-flow: row wrap;
+                .bottom__rtext {
+                  width: 370px;
+                  position: relative;
+                  margin-top: 10px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  h3 {
+                    font-size: 12px;
+                    font-weight: 700px;
+                    line-height: 2.17;
+                    color: #3f4064;
+                    font-family: var(--fontFamily);
+                    overflow: hidden;
+                    position: absolute;
+                    top: 10px;
+                  }
+                }
+                .meshki {
+                  width: 370px;
+                  height: 26px;
+                  display: flex;
+                  flex-flow: row;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-top: 10px;
+                  .meshki__1 {
+                    display: flex;
+                    flex-flow: row;
+                    .gerd {
+                      width: 14px;
+                      height: 14px;
+                      background-color: black;
+                      border-radius: 50%;
+                    }
+                    p {
+                      font-size: 10px;
+                      font-family: var(--fontFamily);
+                      padding-right: 4px;
+                    }
+                  }
+                  .meshki__2 {
+                    display: flex;
+                    flex-flow: row;
+                    gap: 5px;
+                    position: relative;
+                    p {
+                      font-size: 12px;
+                      font-family: var(--fontFamily);
+                    }
+                    svg {
+                      width: 16px;
+                      height: 16px;
+                      path {
+                        fill: gold;
+                        width: 16px;
+                        height: 16px;
+                      }
+                    }
+                  }
+                }
+                .darsad__roz {
+                  width: 100%;
+                  height: 34px;
+                  display: flex;
+                  flex-flow: row;
+                  justify-content: space-between;
+                  align-items: center;
+
+                  .darsad__ghermez {
+                    width: 34px;
+                    height: 20px;
+                    background-color: red;
+                    border-radius: 30%;
+                    span {
+                      font-size: 14px;
+                      color: whitesmoke;
+                    }
+                  }
+                }
+                .roz__smal {
+                  width: 100%;
+                  height: 26px;
+                  position: relative;
+                  display: flex;
+                  flex-flow: row wrap;
+                  justify-content: left;
+                  align-items: center;
+                  p {
+                    font-size: 12px;
+                    font-weight: 400px;
+                    font-family: var(--fontFamily);
+                    line-height: 2.17;
+                    text-decoration-line: line-through;
+                    color: #c0c2c5;
+                    position: absolute;
+                    right: 300px;
+                    bottom: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

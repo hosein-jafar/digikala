@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,p,span,div{
+    font-family: iranyekan;
+}
+body,html{
+    direction: rtl;
+    ::-webkit-scrollbar{
+        width: 9px;
+        background-color: #f0f0f1;
+    }
+}
+:root{
+    --fontFamily:iranyekan;
+}
+@font-face{
+    font-family: iranyekan;
+    src: url('../fonts/IRANYekanWeb-Medium.eot');
+    src: url('../fonts/IRANYekanWeb-Medium.ttf');
+    src: url('../fonts/IRANYekanWeb-Medium.woff');
+    src: url('../fonts/IRANYekanWeb-Medium.woff2');
+}
